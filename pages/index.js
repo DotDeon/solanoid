@@ -22,6 +22,7 @@ export default function Home() {
         <Sidebar />
         <div className="flex flex-col pt-6 ml-2">
           <Header />
+          {/* <div className=" ml-64 mt-56 "> */}
           <div className="ml-32 mt-32 ">
             <Banner />
             <Roadmap />
