@@ -50,11 +50,11 @@ function Header({ placeholder }) {
   };
 
   return (
-    <header className="sticky pt-6 p-5 bg-black">
+    <header className="sticky pt-6 p-5 bg-black top-0 z-50">
       {/* Left */}
       <div
         onClick={() => router.push("/")}
-        className="flex items-center bg-black justify-start  pl-4 cursor-pointer my-auto hover:animate-pulse"
+        className="flex items-center bg-black justify-start pl-4 cursor-pointer my-auto hover:animate-pulse"
       >
         <Image
           src={logo}

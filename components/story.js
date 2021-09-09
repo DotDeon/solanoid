@@ -7,13 +7,13 @@ import logo from "../assets/logo.svg";
 
 function Story() {
   return (
-    <div className="bg-black  ml-6">
-      <div className=" mt-40 w-1/2 bg-black">
-        <h1 className="text-7xl font-Montserrat text-white font-bold">
+    <div className="bg-black left-48 ml-16 md:ml-[367px]">
+      <div className=" mt-32 md:mt-40 mr-32 bg-black">
+        <h1 className="text-8xl font-Raleway text-white font-extrabold">
           the story
         </h1>
 
-        <p className="mt-12 text-lg font-Montserrat text-white">
+        <p className="mt-12 text-3xl font-Raleway text-white">
           SHA 256 built lots of constant do your own research, and NEO broadcast
           few bear trap after the non-fungible token. Although OmiseGo
           identified a atomic swap for many <em>agreement</em> ledger, ERC721
@@ -23,7 +23,6 @@ function Story() {
           minimum price behind the bagholder. Ravencoin{" "}
           <strong>serves many burned,</strong> and Monero could be a pump and
           dump!
-          <br />
           <br />
           <br />
           Tezos accompanied by a immutable private chain since Waves limited a

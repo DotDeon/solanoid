@@ -7,29 +7,22 @@ import Sidebar from "../components/sidemenu";
 import Story from "../components/story";
 export default function Home() {
   return (
-    <div className="absolute bg-black overflow-hidden scale-auto">
+    <div className="absolute bg-black h-screen">
       <Head>
         <title>Solanoid</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap"
           rel="stylesheet"
-        ></link>
-
-  
+        />
       </Head>
       <div className="flex flex-row bg-black">
-        <span
-          id="circle"
-          className=" absolute border-2 w-[60px] h-[60px] rounded-full"
-        ></span>
         <Sidebar />
         <div className="flex flex-col pt-6 ml-2">
           <Header />
-          {/* <div className=" ml-64 mt-56 "> */}
-          <div className="ml-16 mt-16 lg:ml-64 lg:mt-64">
+          <div className="flex-none md:flex-1 w-full overflow-scroll">
             <Banner />
             <Roadmap />
             <Story />
