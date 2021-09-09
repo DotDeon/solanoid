@@ -17,13 +17,19 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
           rel="stylesheet"
         ></link>
+
+  
       </Head>
       <div className="flex flex-row bg-black">
+        <span
+          id="circle"
+          className=" absolute border-2 w-[60px] h-[60px] rounded-full"
+        ></span>
         <Sidebar />
         <div className="flex flex-col pt-6 ml-2">
           <Header />
           {/* <div className=" ml-64 mt-56 "> */}
-          <div className="ml-16 mt-16 ">
+          <div className="ml-16 mt-16 md:ml-64 md-mt-64">
             <Banner />
             <Roadmap />
             <Story />
