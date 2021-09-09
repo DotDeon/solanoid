@@ -29,7 +29,7 @@ export default function Home() {
         <div className="flex flex-col pt-6 ml-2">
           <Header />
           {/* <div className=" ml-64 mt-56 "> */}
-          <div className="ml-16 mt-16 md:ml-64 md-mt-64">
+          <div className="ml-16 mt-16 lg:ml-64 lg:mt-64">
             <Banner />
             <Roadmap />
             <Story />
