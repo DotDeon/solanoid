@@ -4,7 +4,7 @@ import logo from "../assets/logo.svg";
 
 function Footer() {
   return (
-    <div className="flex flex-row bg-white w-screen h-1/3 mt-32">
+    <div className="flex flex-row bg-white w-screen h-1/4 mt-32">
       <div className="flex-1 bg-white">
         <div className="relative flex h-16 mt-20 w-16 ml-auto mr-auto cursor-pointer hover:animate-pulse">
           {/* <Image
@@ -29,11 +29,11 @@ function Footer() {
         </div>
       </div>
       <div className="flex-1 "></div>
-      <div className="flex-1 bg-sred">
-        <h1 className="text-black flex text-4xl mt-16 ml-56  font-Raleway font-bold">
+      <div className="flex-1">
+        <h1 className="text-black flex text-4xl mt-16 ml-44  font-Raleway font-bold">
           menu
         </h1>
-        <div className="text-black  flex flex-col text-1xl ml-56 mt-2  font-Raleway">
+        <div className="text-black  flex flex-col text-1xl ml-44 mt-2  font-Raleway">
           <Link href={{ pathname: "/", query: { scroll: 0 } }}>
             <p className="cursor-pointer">home</p>
           </Link>
