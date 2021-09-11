@@ -77,7 +77,7 @@ function Roadmap() {
           </div>
           <div className="flex flex-col flex-grow">
             <h1 className="text-white font-Raleway text-5xl ml-10 mt-4 font-bold ">
-              Q1
+              Q2
             </h1>
             <div className="items-center justify-center">
               <div className="flex  flex-row ml-8 -mt-4">
@@ -107,7 +107,7 @@ function Roadmap() {
           </div>
           <div className="flex flex-col flex-grow">
             <h1 className="text-white font-Raleway text-5xl ml-10 mt-4 font-bold ">
-              Q1
+              Q3
             </h1>
             <div className="items-center justify-center">
               <div className="flex  flex-row ml-8 -mt-4">
