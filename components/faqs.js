@@ -19,7 +19,7 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-2">
+                <div className="flex flex-row ml-8 mt-4 md:mt-2">
                   <p className="text-white ml-4 text-4xl md:text-6xl font-Raleway font-semibold">
                     what wallets are supported?
                   </p>
