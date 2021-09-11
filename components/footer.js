@@ -32,7 +32,7 @@ function Footer() {
           </Link>
         </div>
       </div>
-      <div className="flex-1 flex-col bg-white">
+      <div className="flex-1 ml-4 flex-col bg-white">
         <h1 className="text-black text-4xl mt-16  font-Raleway font-bold">
           socials
         </h1>

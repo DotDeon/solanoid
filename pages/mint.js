@@ -1,10 +1,12 @@
 import Head from "next/head";
-import Banner from "../components/banner";
-import Faqs from "../components/faqs";
-import Roadmap from "../components/roadmap";
+import Mint from "../components/mintbutton";
+import Countdown from "../components/countdown";
+import ConnectWallet from "../components/connectWallet";
 import Sidebar from "../components/sidemenu";
+import Footer from "../components/footer";
+import Copyright from "../components/copyright";
 
-export default function Mint() {
+export default function mint() {
   return (
     <div className="bg-black w-screen h-screen">
       <Head>
