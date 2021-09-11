@@ -4,7 +4,9 @@ import Banner from "../components/banner";
 import ConnectWallet from "../components/connectwallet";
 import Countdown from "../components/countdown";
 import Faqs from "../components/faqs";
+import Footer from "../components/footer";
 import Header from "../components/header";
+import Mint from "../components/mintbutton";
 import Roadmap from "../components/roadmap";
 import Sidebar from "../components/sidemenu";
 import Story from "../components/story";
@@ -24,9 +26,14 @@ export default function mint() {
       <div className="flex flex-row bg-black">
         <Sidebar />
         <div className="flex flex-col pt-6 ml-2 w-screen">
-          <div className="flex-none md:flex-1 mx-auto overflow-y-scroll ">
-           <ConnectWallet />
-           <Countdown />
+          <div className="flex-none md:flex-1 mx-auto overflow-x-scroll ">
+            <ConnectWallet />
+            <div className="flex-col h-1/2">
+              <Countdown />
+              <Mint />
+            </div>
+
+            <Footer />
           </div>
         </div>
       </div>

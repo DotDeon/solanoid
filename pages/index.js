@@ -6,6 +6,7 @@ import Header from "../components/header";
 import Roadmap from "../components/roadmap";
 import Sidebar from "../components/sidemenu";
 import Story from "../components/story";
+
 export default function Home() {
   return (
     <div className="absolute bg-black h-screen">
@@ -24,8 +25,8 @@ export default function Home() {
         <div className="flex flex-col pt-6 ml-2 w-screen">
           <div className="flex-none md:flex-1 mx-auto overflow-y-scroll ">
             <Banner />
-           <Roadmap />
-           <Faqs />
+            <Roadmap />
+            <Faqs />
             {/* <Story />  */}
           </div>
         </div>
