@@ -22,25 +22,26 @@ function Footer() {
           </svg>
         </div>
       </div>
-      <div className=" hidden md:flex-auto "></div>
-      <div className=" flex-auto "></div>
-      <div className="flex-1 mt-20 md:mt-24 ">
-        <h1 className="text-black flex text-4xl mt-16 ml-28  font-Raleway font-bold">
+      <div className="hidden md:flex-auto"></div>
+      <div className=" flex-1 "></div>
+      <div className="hidden md:flex-auto"></div>
+      <div className="flex flex-col mt-20 md:mt-24 w-1/12 ">
+        <h1 className="text-black flex text-4xl mt-16 -ml-2  font-Raleway font-bold">
           menu
         </h1>
-        <div className="text-black  flex flex-col text-1xl ml-28 mt-2  font-Raleway">
+        <div className="text-black  flex flex-col text-1xl -ml-2 mt-2  font-Raleway">
           <Link href={{ pathname: "/", query: { scroll: 0 } }}>
-            <p className="cursor-pointer">home</p>
+            <p className="cursor-pointer hover:text-sblue">home</p>
           </Link>
           <Link href={{ pathname: "/", query: { scroll: 200 } }}>
-            <p className="cursor-pointer">roadmap</p>
+            <p className="cursor-pointer hover:text-sblue">roadmap</p>
           </Link>
           <Link href="/mint">
-            <p className="cursor-pointer">mint</p>
+            <p className="cursor-pointer hover:text-sblue">mint</p>
           </Link>
         </div>
       </div>
-      <div className="flex-1 ml-4 flex-col bg-white mt-20 md:mt-24 ">
+      <div className="flex-1 ml-4 flex-col mt-20 md:mt-24 ">
         <h1 className="text-black text-4xl mt-16  font-Raleway font-bold">
           socials
         </h1>
@@ -50,18 +51,18 @@ function Footer() {
             href="https://twitter.com/SolanoidNFT"
             rel="noopener noreferrer"
           >
-            <p>twitter</p>
+            <p className="cursor-pointer hover:text-sblue">twitter</p>
           </a>
           <a
             target="_blank"
             href="https://discord.gg/KTgpaGpn"
             rel="noopener noreferrer"
           >
-            <p>discord</p>
+            <p className="cursor-pointer hover:text-sblue">discord</p>
           </a>
         </div>
       </div>
-      <div className=" flex-auto "></div>
+      {/* <div className=" flex-auto "></div> */}
     </div>
   );
 }
