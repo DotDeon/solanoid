@@ -5,8 +5,8 @@ import logo from "../assets/logo.svg";
 function Footer() {
   return (
     <div className="flex flex-row bg-white w-screen mt-20 h-1/3 md:h-1/2">
-      <div className="flex-1 bg-white mt-20 md:mt-44 ">
-        <div className="relative ml-44 flex h-16 w-16 mr-auto cursor-pointer hover:animate-pulse">
+      <div className="flex-1 bg-white mt-44 md:mt-44 ">
+        <div className="relative ml-8 md:ml-44 flex h-16 w-16 mr-auto cursor-pointer hover:animate-pulse">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="83.37"
@@ -23,7 +23,6 @@ function Footer() {
         </div>
       </div>
       <div className=" hidden md:flex-auto "></div>
-      <div className=" flex-auto "></div>
       <div className=" flex-auto "></div>
       <div className="flex-1 mt-20 md:mt-24 ">
         <h1 className="text-black flex text-4xl mt-16 ml-28  font-Raleway font-bold">
