@@ -6,12 +6,16 @@ import Header from "../components/header";
 import Roadmap from "../components/roadmap";
 import Sidebar from "../components/sidemenu";
 import Story from "../components/story";
+import { useRouter } from "next/dist/client/router";
 
 export default function Home() {
+  const router = useRouter();
+  const { scroll } = router.query;
+
   return (
-    <div className="absolute bg-black h-screen">
+    <div className="absolute bg-black w-screen h-screen">
       <Head>
-        <title>Solanoid</title>
+        <title>solanoid</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

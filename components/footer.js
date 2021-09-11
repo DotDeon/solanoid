@@ -21,10 +21,10 @@ function Footer() {
           menu
         </h1>
         <div className="text-black text-1xl mt-2  font-Raleway">
-          <Link href="/">
+          <Link href={{ pathname: "/", query: { scroll: 0 } }}>
             <p className="cursor-pointer">home</p>
           </Link>
-          <Link href="/">
+          <Link href={{ pathname: "/", query: { scroll: 200 } }}>
             <p className="cursor-pointer">roadmap</p>
           </Link>
           <Link href="/mint">
