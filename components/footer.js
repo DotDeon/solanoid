@@ -25,7 +25,7 @@ function Footer() {
       <div className="hidden md:flex-auto"></div>
       <div className=" flex-1 "></div>
       <div className="hidden md:flex-auto"></div>
-      <div className="flex flex-col mt-20 md:mt-24 w-1/12 ">
+      <div className="flex flex-col mt-20 md:mt-24 md:w-1/12 ">
         <h1 className="text-black flex text-4xl mt-16 -ml-2  font-Raleway font-bold">
           menu
         </h1>
