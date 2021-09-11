@@ -16,7 +16,7 @@ function Banner() {
         </p>
 
         <div className="flex flex-row justify-start mt-8 ">
-          <div className="cursor-pointer pr-1 md:pr-20 hover:scale-105 transform items-center transution duration-300 ease-out">
+          <div className="cursor-pointer pr-4 md:pr-20 hover:scale-105 transform items-center transution duration-300 ease-out">
             {/* <div className="relative h-80 w-96">
               <Image src={red} layout="fill" />
             </div> */}
@@ -25,7 +25,7 @@ function Banner() {
               handmade
             </h3>
           </div>
-          <div className="cursor-pointer pr-1  md:pr-20 justify-center hover:scale-105 transform transution duration-300 ease-out">
+          <div className="cursor-pointer pr-4  md:pr-20 justify-center hover:scale-105 transform transution duration-300 ease-out">
             <Image src={yellow} height={250} width={250} />
             <h3 className="text-2xl md:text-5xl text-center  font-bold font-Raleway mt-8 text-syellow">
               scarce
