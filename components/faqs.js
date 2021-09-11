@@ -20,7 +20,7 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-2">
-                  <p className="text-white ml-4 text-2xl md:text-6xl font-Raleway font-semibold">
+                  <p className="text-white ml-4 text-4xl md:text-6xl font-Raleway font-semibold">
                     what wallets are supported?
                   </p>
                 </div>
@@ -55,7 +55,7 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-2">
-                  <p className="text-white ml-4 text-2xl md:text-6xl  font-Raleway font-semibold">
+                  <p className="text-white ml-4 text-4xl md:text-6xl  font-Raleway font-semibold">
                     what is the total supply?
                   </p>
                 </div>
@@ -90,7 +90,7 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-2">
-                  <p className="text-white ml-4 text-2xl md:text-6xl  font-Raleway font-semibold">
+                  <p className="text-white ml-4 text-4xl md:text-6xl  font-Raleway font-semibold">
                     how much does it cost to mint?
                   </p>
                 </div>
@@ -125,7 +125,7 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-2">
-                  <p className="text-white ml-4 text-2xl md:text-6xl font-Raleway font-semibold">
+                  <p className="text-white ml-4 text-4xl md:text-6xl font-Raleway font-semibold">
                     when is the launch?
                   </p>
                 </div>
@@ -160,7 +160,7 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-2">
-                  <p className="text-white ml-4 text-2xl md:text-6xl  font-Raleway font-semibold">
+                  <p className="text-white ml-4 text-4xl md:text-6xl  font-Raleway font-semibold">
                     will there be a presale?
                   </p>
                 </div>
@@ -195,7 +195,7 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-2">
-                  <p className="text-white ml-4 text-2xl md:text-6xl  font-Raleway font-semibold">
+                  <p className="text-white ml-4 text-4xl md:text-6xl  font-Raleway font-semibold">
                     are there giveaways?
                   </p>
                 </div>
@@ -230,7 +230,7 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-3">
-                  <p className="text-white ml-2 text-2xl md:text-5xl  font-Raleway font-semibold">
+                  <p className="text-white ml-2 text-4xl md:text-5xl  font-Raleway font-semibold">
                     what will minting funds go towards?
                   </p>
                 </div>
