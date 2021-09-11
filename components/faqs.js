@@ -125,7 +125,7 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-2">
-                  <p className="text-white ml-4 text-2xl md:text-6xl text-6xl font-Raleway font-semibold">
+                  <p className="text-white ml-4 text-2xl md:text-6xl font-Raleway font-semibold">
                     when is the launch?
                   </p>
                 </div>

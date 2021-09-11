@@ -42,7 +42,7 @@ const Countdown = () => {
         <> </>
       ) : (
         <div className="flex flex-row justify-center">
-          <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-20 md:w-32 h-20 md:h-32 items-center justify-center rounded-full">
+          <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-24 md:w-32 h-24 md:h-32 items-center justify-center rounded-full">
             <span className="text-white text-3xl md:text-5xl font-Raleway font-extrabold">
               {days}
             </span>
@@ -50,7 +50,7 @@ const Countdown = () => {
               DAYS
             </span>
           </div>
-          <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-20 md:w-32 h-20 md:h-32 items-center justify-center rounded-full">
+          <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-24 md:w-32 h-24 md:h-32 items-center justify-center rounded-full">
             <span className="text-white text-3xl md:text-5xl font-Raleway font-extrabold">
               {hours}
             </span>
@@ -58,7 +58,7 @@ const Countdown = () => {
               HOURS
             </span>
           </div>
-          <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-20 md:w-32 h-20 md:h-32 items-center justify-center rounded-full  ">
+          <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-24 md:w-32 h-24 md:h-32 items-center justify-center rounded-full  ">
             <span className="text-white text-3xl md:text-5xl font-Raleway font-extrabold">
               {minutes}
             </span>
@@ -66,7 +66,7 @@ const Countdown = () => {
               MINUTES
             </span>
           </div>
-          <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-20 md:w-32 h-20 md:h-32 items-center justify-center rounded-full  ">
+          <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-24 md:w-32 h-24 md:h-32 items-center justify-center rounded-full  ">
             <span className="text-white text-3xl md:text-5xl font-Raleway font-extrabold">
               {seconds}
             </span>
