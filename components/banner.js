@@ -21,19 +21,19 @@ function Banner() {
               <Image src={red} layout="fill" />
             </div> */}
             <Image src={red} height={304} width={304} />
-            <h3 className="text-6xl text-center  font-bold font-Raleway mt-10 text-sred">
+            <h3 className="text-3xl md:text-6xl text-center  font-bold font-Raleway mt-10 text-sred">
               handmade
             </h3>
           </div>
-          <div className="cursor-pointer px-1  md:px-12 justify-center hover:scale-105 transform transution duration-300 ease-out">
+          <div className="cursor-pointer pr-1  md:px-12 justify-center hover:scale-105 transform transution duration-300 ease-out">
             <Image src={yellow} height={304} width={304} />
-            <h3 className="text-6xl text-center  font-bold font-Raleway mt-10 text-syellow">
+            <h3 className="text-3xl md:text-6xl text-center  font-bold font-Raleway mt-10 text-syellow">
               scarce
             </h3>
           </div>
-          <div className="cursor-pointer  px-1 md:px-12  hover:scale-105 justify-center transform transution duration-300 ease-out">
+          <div className="cursor-pointer md:px-12  hover:scale-105 justify-center transform transution duration-300 ease-out">
             <Image src={blue} height={304} width={304} />
-            <h3 className="text-6xl text-center  font-bold font-Raleway mt-10 text-sblue">
+            <h3 className="text-3xl md:text-6xl text-center  font-bold font-Raleway mt-10 text-sblue">
               lo-fi
             </h3>
           </div>
