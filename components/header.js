@@ -33,7 +33,7 @@ function Header({ placeholder }) {
   };
 
   return (
-    <header className="sticky pt-6 p-5 bg-black top-0 z-50">
+    <header className="sticky md:pt-6 p-5 bg-black top-0 z-50">
       {/* Left */}
       <div
         onClick={() => router.push("/")}

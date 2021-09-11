@@ -20,7 +20,7 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-4 md:mt-2">
-                  <p className="text-white ml-2 mt-4 text-4xl   font-Raleway font-semibold">
+                  <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
                     what wallets are supported?
                   </p>
                 </div>
@@ -54,8 +54,8 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-4 mt-2 text-4xl   font-Raleway font-semibold">
+                <div className="flex flex-row ml-4 mt-4 md:mt-2">
+                  <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
                     what is the total supply?
                   </p>
                 </div>
@@ -70,7 +70,7 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-6">
+                <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway">
                     a total of 10,000 unique Solanoid NFTs will be created.
                   </p>
@@ -89,8 +89,8 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-4 mt-2 text-4xl   font-Raleway font-semibold">
+                <div className="flex flex-row ml-4 mt-4 md:mt-2">
+                  <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
                     how much does it cost to mint?
                   </p>
                 </div>
@@ -105,7 +105,7 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-6">
+                <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway ">
                     1.5SOL + $0.01 of gas.
                   </p>
@@ -124,8 +124,8 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-4 mt-2 text-4xl   font-Raleway font-semibold">
+                <div className="flex flex-row ml-4 mt-4 md:mt-2">
+                  <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
                     when is the launch?
                   </p>
                 </div>
@@ -140,7 +140,7 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-6">
+                <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway">
                     Friday 24th of September 2021 at 6pm UTC.
                   </p>
@@ -159,8 +159,8 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-4 mt-2 text-4xl   font-Raleway font-semibold">
+                <div className="flex flex-row ml-4 mt-4 md:mt-2">
+                  <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
                     will there be a presale?
                   </p>
                 </div>
@@ -175,7 +175,7 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-6">
+                <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway ">
                     this will be a completely fairlaunch, therefore no presale.
                   </p>
@@ -194,8 +194,8 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-4 mt-2 text-4xl   font-Raleway font-semibold">
+                <div className="flex flex-row ml-4 mt-4 md:mt-2">
+                  <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
                     are there giveaways?
                   </p>
                 </div>
@@ -210,7 +210,7 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-6">
+                <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway">
                     there are several giveaways on our Discord & Twitter.
                   </p>
@@ -229,7 +229,7 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-4 md:mt-4">
+                <div className="flex flex-row ml-4 mt-4 md:mt-2">
                   <p className="text-white ml-2 mt-2 text-4xl    font-Raleway font-semibold">
                     what will minting funds go towards?
                   </p>
@@ -245,7 +245,7 @@ function Faqs() {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-6">
+                <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway">
                     they will be used to develop our interactive & pay our team.
                   </p>
