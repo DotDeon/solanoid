@@ -7,36 +7,36 @@ import logo from "../assets/logo.svg";
 function Faqs() {
   return (
     <div className="bg-black pb-64">
-      <div className=" mt-32 md:mt-44 bg-black">
-        <h1 className="text-8xl font-Raleway text-white font-extrabold">faq</h1>
+      <div className=" mt-32 bg-black">
+        <h1 className="text-6xl font-Raleway text-white font-extrabold">faq</h1>
         {/* faq 1 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row mt-12 h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
               </h1>
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-4 md:mt-2">
-                  <p className="text-white ml-4 mt-2 text-4xl md:text-5xl font-Raleway font-semibold">
+                <div className="flex flex-row ml-4 mt-4 md:mt-2">
+                  <p className="text-white ml-2 mt-4 text-4xl   font-Raleway font-semibold">
                     what wallets are supported?
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
               </h1>
             </div>
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
-                <div className="flex flex-row ml-8 mt-6">
-                  <p className="text-white ml-4 text-2xl font-Raleway">
+                <div className="flex flex-row ml-4 mt-6">
+                  <p className="text-white ml-2 text-2xl font-Raleway">
                     Sollet, Phantom, SolFlare and Ledger wallets are supported.
                   </p>
                 </div>
@@ -46,8 +46,8 @@ function Faqs() {
         </div>
         {/* faq 2 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row mt-6 h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
               </h1>
@@ -55,15 +55,15 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-4 mt-2 text-4xl md:text-5xl font-Raleway font-semibold">
+                  <p className="text-white ml-4 mt-2 text-4xl   font-Raleway font-semibold">
                     what is the total supply?
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
               </h1>
@@ -81,8 +81,8 @@ function Faqs() {
         </div>
         {/* faq 3 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row mt-6 h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
               </h1>
@@ -90,15 +90,15 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-4 mt-2 text-4xl md:text-5xl font-Raleway font-semibold">
+                  <p className="text-white ml-4 mt-2 text-4xl   font-Raleway font-semibold">
                     how much does it cost to mint?
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
               </h1>
@@ -116,8 +116,8 @@ function Faqs() {
         </div>
         {/* 2021 - Q4 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row mt-6 h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
               </h1>
@@ -125,15 +125,15 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-4 mt-2 text-4xl md:text-5xl font-Raleway font-semibold">
+                  <p className="text-white ml-4 mt-2 text-4xl   font-Raleway font-semibold">
                     when is the launch?
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
               </h1>
@@ -151,8 +151,8 @@ function Faqs() {
         </div>
         {/* 2021 - Q4 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row mt-12 h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
               </h1>
@@ -160,15 +160,15 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-4 mt-2 text-4xl md:text-5xl font-Raleway font-semibold">
+                  <p className="text-white ml-4 mt-2 text-4xl   font-Raleway font-semibold">
                     will there be a presale?
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
               </h1>
@@ -186,8 +186,8 @@ function Faqs() {
         </div>
         {/* 2021 - Q4 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row mt-6 h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
               </h1>
@@ -195,15 +195,15 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-4 mt-2 text-4xl md:text-5xl font-Raleway font-semibold">
+                  <p className="text-white ml-4 mt-2 text-4xl   font-Raleway font-semibold">
                     are there giveaways?
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
               </h1>
@@ -221,8 +221,8 @@ function Faqs() {
         </div>
         {/* 2021 - Q4 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row mt-6 h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
               </h1>
@@ -230,15 +230,15 @@ function Faqs() {
             <div className="flex flex-col flex-grow">
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-8 mt-4 md:mt-4">
-                  <p className="text-white ml-2 mt-2 text-4xl md:text-5xl  font-Raleway font-semibold">
+                  <p className="text-white ml-2 mt-2 text-4xl    font-Raleway font-semibold">
                     what will minting funds go towards?
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
-            <div className="h-full w-32 bg-white items-center justify-center">
+          <div className="flex flex-row h-[90px] w-[900px] border border-white ">
+            <div className=" h-full w-28 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
               </h1>

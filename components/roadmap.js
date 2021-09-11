@@ -7,19 +7,19 @@ import logo from "../assets/logo.svg";
 function Roadmap() {
   return (
     <div className="bg-black">
-      <div className=" mt-32 md:mt-44 bg-black">
-        <h1 className="text-8xl font-Raleway text-white font-extrabold">
+      <div className=" mt-32 ml-2 bg-black">
+        <h1 className="text-7xl font-Raleway text-white font-extrabold">
           roadmap
         </h1>
         {/* 2021 - Q4 */}
-        <div className="flex flex-row mt-12 h-[246px] w-[900px] md:w-[1116px] border-2 border-white hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="h-full w-32 bg-white">
-            <h1 className="-rotate-90 text-black text-6xl mt-24 mr-2  font-Raleway font-bold">
+        <div className="flex flex-row mt-8 h-[200px] w-[900px] border-2 border-white hover:scale-105 justify-center transform transution duration-300 ease-out">
+          <div className="h-full w-28 bg-white ">
+            <h1 className="-rotate-90 text-black text-5xl mt-16 pt-2 font-Raleway font-bold">
               2021
             </h1>
           </div>
           <div className="flex flex-col flex-grow">
-            <h1 className="text-white font-Raleway text-5xl ml-10 mt-8 font-bold ">
+            <h1 className="text-white font-Raleway text-4xl ml-6 mt-6 font-bold ">
               Q4
             </h1>
             <div className="items-center justify-between">
@@ -44,21 +44,21 @@ function Roadmap() {
           </div>
         </div>
         {/* 2022 - Q1 */}
-        <div className="flex flex-row mt-4  h-[246px] w-[900px] md:w-[1116px] border-2 border-white hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="h-full w-32 bg-white">
-            <h1 className="-rotate-90 text-black text-6xl mt-24 mr-2  font-Raleway font-bold">
+        <div className="flex flex-row mt-4 h-[200px] w-[900px] border-2 border-white hover:scale-105 justify-center transform transution duration-300 ease-out">
+          <div className="h-full w-28 bg-white">
+            <h1 className="-rotate-90 text-black text-5xl mt-16 pt-2 font-Raleway font-bold">
               2022
             </h1>
           </div>
           <div className="flex flex-col flex-grow">
-            <h1 className="text-white font-Raleway text-5xl ml-10 mt-4 font-bold ">
+            <h1 className="text-white font-Raleway text-4xl ml-6 mt-6 font-bold ">
               Q1
             </h1>
             <div className="items-center justify-center">
               <div className="flex  flex-row ml-8">
                 <Image src={logo} height={30} width={30} />
 
-                <p className="text-white ml-4 mt-6 text-lg my-auto font-Raleway font-semibold">
+                <p className="text-white ml-4 mt-2 text-lg my-auto font-Raleway font-semibold">
                   release of our Lost Sols token on the Solana ecosystem,
                   liquidity will <br /> be provided from a percent of minting
                   revenue, this token will be <br /> eligible to be airdropped
@@ -69,21 +69,21 @@ function Roadmap() {
           </div>
         </div>
         {/* 2022 - Q2 */}
-        <div className="flex flex-row mt-4  h-[246px] w-[900px] md:w-[1116px] border-2 border-white hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="h-full w-32 bg-white">
-            <h1 className="-rotate-90 text-black text-6xl mt-24 mr-2  font-Raleway font-bold">
+        <div className="flex flex-row mt-4 h-[200px] w-[900px] border-2 border-white hover:scale-105 justify-center transform transution duration-300 ease-out">
+          <div className="h-full w-28 bg-white">
+            <h1 className="-rotate-90 text-black text-5xl mt-16 pt-2 font-Raleway font-bold">
               2022
             </h1>
           </div>
           <div className="flex flex-col flex-grow">
-            <h1 className="text-white font-Raleway text-5xl ml-10 mt-4 font-bold ">
+            <h1 className="text-white font-Raleway text-4xl ml-6 mt-6 font-bold ">
               Q2
             </h1>
             <div className="items-center justify-center">
               <div className="flex  flex-row ml-8 -mt-4">
                 <Image src={logo} height={30} width={30} />
 
-                <p className="text-white ml-4 mt-6 text-lg my-auto font-Raleway font-semibold">
+                <p className="text-white ml-4 mt-4 text-lg my-auto font-Raleway font-semibold">
                   solanoid's official interactive experience with
                   microtransactions will
                   <br />
@@ -99,21 +99,20 @@ function Roadmap() {
           </div>
         </div>
         {/* 2022 - Q2 */}
-        <div className="flex flex-row mt-4  h-[246px] w-[900px] md:w-[1116px] border-2 border-white hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="h-full w-32 bg-white">
-            <h1 className="-rotate-90 text-black text-6xl mt-24 mr-2  font-Raleway font-bold">
+        <div className="flex flex-row mt-4 h-[200px] w-[900px] border-2 border-white hover:scale-105 justify-center transform transution duration-300 ease-out">
+          <div className="h-full w-28 bg-white">
+            <h1 className="-rotate-90 text-black text-5xl mt-16 pt-2 font-Raleway font-bold">
               2022
             </h1>
           </div>
           <div className="flex flex-col flex-grow">
-            <h1 className="text-white font-Raleway text-5xl ml-10 mt-4 font-bold ">
+            <h1 className="text-white font-Raleway text-4xl ml-6 mt-6 font-bold ">
               Q3
             </h1>
             <div className="items-center justify-center">
               <div className="flex  flex-row ml-8 -mt-4">
                 <Image src={logo} height={30} width={30} />
-
-                <p className="text-white ml-4 mt-10 text-lg my-auto font-Raleway font-semibold">
+                <p className="text-white ml-4 mt-4 text-lg my-auto font-Raleway font-semibold">
                   real world token prizes on our experience will be dispersed
                   around the
                   <br />
