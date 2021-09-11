@@ -1,5 +1,4 @@
 import Image from "next/image";
-import headerimg from "../assets/header.jpg";
 import blue from "../assets/blue.png";
 import red from "../assets/red.png";
 import yellow from "../assets/yellow.png";
@@ -7,13 +6,13 @@ import yellow from "../assets/yellow.png";
 function Banner() {
   return (
     <div className="">
-      <div className="left-48 ml-16 md:ml-[367px] mt-32  md:mt-[220px]">
+      <div className="left-48 mt-32  md:mt-[220px]">
         <h1 className="text-9xl font-Raleway text-white font-extrabold">
           solanoid
         </h1>
         <p className=" text-white font-Raleway text-3xl font-bold mt-8">
           The Solonoids are 10,000 handmade side-profile characters <br /> with
-          lo-fo aesthetics deployed on the Solana ecosystem.
+          lo-fi aesthetics deployed on the Solana ecosystem.
         </p>
 
         <div className="flex flex-row justify-start mt-16 ">

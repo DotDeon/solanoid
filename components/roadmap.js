@@ -1,5 +1,4 @@
 import Image from "next/image";
-import headerimg from "../assets/header.jpg";
 import blue from "../assets/blue.png";
 import red from "../assets/red.png";
 import yellow from "../assets/yellow.png";
@@ -8,7 +7,7 @@ import logo from "../assets/logo.svg";
 function Roadmap() {
   return (
     <div className="bg-black">
-      <div className=" mt-32 md:mt-44 right-48 mr-48 ml-16 md:ml-[367px] bg-black">
+      <div className=" mt-32 md:mt-44 bg-black">
         <h1 className="text-8xl font-Raleway text-white font-extrabold">
           roadmap
         </h1>

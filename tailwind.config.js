@@ -11,6 +11,7 @@ module.exports = {
       sblue: "#02bdb8",
       black: "#000000",
       white: "#e6e6e6",
+      gradblue: "#DDE3FF"
     },
     extend: {
       fontFamily: {

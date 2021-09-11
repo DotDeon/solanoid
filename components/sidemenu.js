@@ -4,20 +4,25 @@ import { useState } from "react";
 import { DateRange, DateRangePicker } from "react-date-range";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
-import { useRouter } from "next/dist/client/router";
+import Link from 'next/link'
 import logo from "../assets/logo.svg";
 
 function Sidebar({ placeholder }) {
   return (
     <header className="sticky top-0 z-50 bg-black h-screen">
       {/* Left */}
-      <div
-        onClick={() => router.push("/")}
-        className="relative flex items-start h-10 cursor-pointer hover:animate-pulse justify-center"
-      >
-        <FaBars className="h-10 mx-6 mt-6 text-white text-xl cursor-pointer hover:text-sred" />
-      </div>
-
+      <Link href="/mint">
+        <div
+          className="relative flex items-start h-16 mt-5 w-16 cursor-pointer hover:animate-pulse justify-center"
+        >
+            <Image
+            src={logo}
+            layout="fill"
+            objectFit="contain"
+            objectPosition="left"
+          />
+        </div>
+      </Link>
       <div className="flex flex-col h-screen mx-auto items-center font-bold justify-center text-gray-900">
         <a
           target="_blank"

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import headerimg from "../assets/header.jpg";
 import blue from "../assets/blue.png";
 import red from "../assets/red.png";
 import yellow from "../assets/yellow.png";

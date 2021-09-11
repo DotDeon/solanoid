@@ -1,16 +1,18 @@
 import Head from "next/head";
 import About from "../components/about";
 import Banner from "../components/banner";
+import ConnectWallet from "../components/connectwallet";
+import Countdown from "../components/countdown";
 import Faqs from "../components/faqs";
 import Header from "../components/header";
 import Roadmap from "../components/roadmap";
 import Sidebar from "../components/sidemenu";
 import Story from "../components/story";
-export default function Home() {
+export default function mint() {
   return (
     <div className="absolute bg-black h-screen">
       <Head>
-        <title>Solanoid</title>
+        <title>Mint Solanoid</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,10 +25,8 @@ export default function Home() {
         <Sidebar />
         <div className="flex flex-col pt-6 ml-2 w-screen">
           <div className="flex-none md:flex-1 mx-auto overflow-y-scroll ">
-            <Banner />
-           <Roadmap />
-           <Faqs />
-            {/* <Story />  */}
+           <ConnectWallet />
+           <Countdown />
           </div>
         </div>
       </div>
