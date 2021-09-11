@@ -15,7 +15,7 @@ function Footer() {
           />
         </div>
       </div>
-      <div className="flex-1 bg-white"></div>
+      <div className="hidden mdflex-1 bg-white"></div>
       <div className="flex-1 ">
         <h1 className="text-black text-4xl mt-16  font-Raleway font-bold">
           menu

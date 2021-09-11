@@ -46,25 +46,33 @@ const Countdown = () => {
             <span className="text-white text-3xl md:text-5xl font-Raleway font-extrabold">
               {days}
             </span>
-            <span className="text-white font-Raleway ">DAYS</span>
+            <span className="text-white text-xs md:text-base font-Raleway ">
+              DAYS
+            </span>
           </div>
           <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-16 md:w-32 h-16 md:h-32 items-center justify-center rounded-full">
             <span className="text-white text-3xl md:text-5xl font-Raleway font-extrabold">
               {hours}
             </span>
-            <span className="text-white font-Raleway ">HOURS</span>
+            <span className="text-white text-xs md:text-base font-Raleway ">
+              HOURS
+            </span>
           </div>
           <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-16 md:w-32 h-16 md:h-32 items-center justify-center rounded-full  ">
             <span className="text-white text-3xl md:text-5xl font-Raleway font-extrabold">
               {minutes}
             </span>
-            <span className="text-white font-Raleway ">MINUTES</span>
+            <span className="text-white text-xs md:text-base font-Raleway ">
+              MINUTES
+            </span>
           </div>
           <div className="flex flex-col mr-2 md:mr-4 border-2 md:border-4 border-white w-16 md:w-32 h-16 md:h-32 items-center justify-center rounded-full  ">
             <span className="text-white text-3xl md:text-5xl font-Raleway font-extrabold">
               {seconds}
             </span>
-            <span className="text-white font-Raleway ">SECONDS</span>
+            <span className="text-white text-xs md:text-base font-Raleway ">
+              SECONDS
+            </span>
           </div>
         </div>
       )}
