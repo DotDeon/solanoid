@@ -27,13 +27,12 @@ export default function mint() {
       <div className="flex flex-row bg-black">
         <Sidebar />
         <div className="flex flex-col pt-6 ml-2 w-screen">
-          <div className="flex-none md:flex-1 mx-auto overflow-x-scroll ">
+          <div className="flex-none md:flex-1 mx-auto scrollbar-hide overflow-y-scroll ">
             <ConnectWallet />
             <div className="flex-col h-1/2">
               <Countdown />
               <Mint />
             </div>
-
             <Footer />
             <Copyright />
           </div>

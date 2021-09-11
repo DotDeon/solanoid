@@ -51,7 +51,6 @@ function Footer() {
           >
             <p>discord</p>
           </a>
-          <p>contact</p>
         </div>
       </div>
     </div>

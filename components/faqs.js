@@ -11,7 +11,7 @@ function Faqs() {
         <h1 className="text-8xl font-Raleway text-white font-extrabold">faq</h1>
         {/* faq 1 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
@@ -27,7 +27,7 @@ function Faqs() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
@@ -46,7 +46,7 @@ function Faqs() {
         </div>
         {/* faq 2 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
@@ -62,7 +62,7 @@ function Faqs() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
@@ -81,7 +81,7 @@ function Faqs() {
         </div>
         {/* faq 3 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
@@ -97,7 +97,7 @@ function Faqs() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
@@ -116,7 +116,7 @@ function Faqs() {
         </div>
         {/* 2021 - Q4 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
@@ -132,7 +132,7 @@ function Faqs() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
@@ -151,7 +151,7 @@ function Faqs() {
         </div>
         {/* 2021 - Q4 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
@@ -167,7 +167,7 @@ function Faqs() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
@@ -186,7 +186,7 @@ function Faqs() {
         </div>
         {/* 2021 - Q4 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
@@ -202,7 +202,7 @@ function Faqs() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
@@ -221,7 +221,7 @@ function Faqs() {
         </div>
         {/* 2021 - Q4 */}
         <div className="hover:scale-105 justify-center transform transution duration-300 ease-out">
-          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row mt-12 h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 Q
@@ -237,7 +237,7 @@ function Faqs() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border-2 border-white ">
+          <div className="flex flex-row h-[90px] w-[900px] md:w-[1116px] border border-white ">
             <div className="h-full w-32 bg-white items-center justify-center">
               <h1 className="text-black text-6xl font-Raleway font-extrabold ml-10 mt-2">
                 A
