@@ -13,7 +13,7 @@ import Sidebar from "../components/sidemenu";
 import Story from "../components/story";
 export default function mint() {
   return (
-    <div className="absolute bg-black h-screen">
+    <div className="absolute  w-screen bg-black h-screen">
       <Head>
         <title>Mint Solanoid</title>
         <link rel="icon" href="/favicon.ico" />
@@ -26,7 +26,7 @@ export default function mint() {
       </Head>
       <div className="flex flex-row w-screen bg-black">
         <Sidebar />
-        <div className="flex flex-col pt-6 ml-2 w-screen">
+        <div className="flex flex-col pt-6 ml-2 w-full bg-black">
           <div className="flex-none md:flex-1 mx-auto scrollbar-hide overflow-y-scroll ">
             <ConnectWallet />
             <div className="flex-col h-1/2">
