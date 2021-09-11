@@ -22,11 +22,6 @@ function Header({ placeholder }) {
   const [endDate, setEndDate] = useState(new Date());
   const router = useRouter();
 
-  const handleSelect = (ranges) => {
-    setStartDate(ranges.selection.startDate),
-      setEndDate(ranges.selection.endDate);
-  };
-
   const selectionRange = {
     startDate: startDate,
     endDate: endDate,
@@ -35,18 +30,6 @@ function Header({ placeholder }) {
 
   const resetInput = () => {
     setSearchInput("");
-  };
-
-  const search = () => {
-    router.push({
-      pathname: "/search",
-      query: {
-        location: searchInput,
-        startDate: startDate.toISOString(),
-        endDate: endDate.toISOString(),
-        numberofGuests,
-      },
-    });
   };
 
   return (

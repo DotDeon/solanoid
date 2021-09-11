@@ -24,7 +24,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <div className="flex flex-row bg-black">
+      <div className="flex flex-row min-w-max min-h-screen bg-black">
         <Sidebar />
         <div className="flex flex-col pt-6 ml-2 bg-black w-screen">
           <div className="flex-none md:flex-1 bg-black mx-auto scrollbar-hide overflow-y-scroll ">
