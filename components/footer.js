@@ -37,8 +37,20 @@ function Footer() {
           socials
         </h1>
         <div className="text-black text-1xl mt-2  font-Raleway">
-          <p>twitter</p>
-          <p>discord</p>
+          <a
+            target="_blank"
+            href="https://twitter.com/SolanoidNFT"
+            rel="noopener noreferrer"
+          >
+            <p>twitter</p>
+          </a>
+          <a
+            target="_blank"
+            href="https://discord.gg/KTgpaGpn"
+            rel="noopener noreferrer"
+          >
+            <p>discord</p>
+          </a>
           <p>contact</p>
         </div>
       </div>

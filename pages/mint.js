@@ -2,6 +2,7 @@ import Head from "next/head";
 import About from "../components/about";
 import Banner from "../components/banner";
 import ConnectWallet from "../components/connectwallet";
+import Copyright from "../components/copyright";
 import Countdown from "../components/countdown";
 import Faqs from "../components/faqs";
 import Footer from "../components/footer";
@@ -34,6 +35,7 @@ export default function mint() {
             </div>
 
             <Footer />
+            <Copyright />
           </div>
         </div>
       </div>
