@@ -13,7 +13,7 @@ export default function Home() {
   const { scroll } = router.query;
 
   return (
-    <div className="absolute bg-black w-screen h-screen">
+    <div className="bg-black w-screen h-screen">
       <Head>
         <title>solanoid</title>
         <link rel="icon" href="/favicon.ico" />

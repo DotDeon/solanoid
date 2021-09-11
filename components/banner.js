@@ -6,7 +6,7 @@ import yellow from "../assets/yellow.png";
 function Banner() {
   return (
     <div className="bg-black">
-      <div className="left-48 mt-8 md:mt-[220px]">
+      <div className="left-48 mt-16 md:mt-[220px]">
         <h1 className="text-9xl font-Raleway text-white font-extrabold">
           solanoid
         </h1>
