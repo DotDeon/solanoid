@@ -12,7 +12,7 @@ export default function mint() {
       <span
         id="circle"
         style={{ left: 0, top: 0 }}
-        className="absolute border-2 border-white w-14 h-14 rounded-full"
+        className="absolute border-2 md:border-white w-1 h-1 md:w-14 md:h-14 rounded-full"
       ></span>
       <Head>
         <title>solanoid</title>
@@ -24,7 +24,7 @@ export default function mint() {
           rel="stylesheet"
         />
       </Head>
-      <div className="flex flex-row min-w-max min-h-screen bg-black">
+      <div className="flex flex-row min-w-screen min-h-screen bg-black">
         <Sidebar />
         <div className="flex flex-col ml-2 bg-black w-screen">
           <div className="flex-none md:flex-1 bg-black mx-auto scrollbar-hide overflow-y-scroll overflow-x-hidden ">
