@@ -9,10 +9,10 @@ import logo from "../assets/logo.svg";
 
 function Sidebar({ placeholder }) {
   return (
-    <header className="sticky top-0 pl-3 z-30 bg-black h-screen">
+    <header className="sticky top-0 bg-black h-screen">
       {/* Left */}
-      <Link href="/mint">
-        <div className="relative flex items-start h-12 pt-3 w-12 cursor-pointer hover:animate-pulse justify-center">
+      <Link href="/mint" className="z-50">
+        <div className="relative z-40 flex items-start h-12 pt-3 w-12 cursor-pointer hover:animate-pulse justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="66"

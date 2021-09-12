@@ -30,13 +30,13 @@ function Footer() {
         </h1>
         <div className="text-black  flex flex-col text-1xl -ml-2 mt-2  font-Raleway">
           <Link href={{ pathname: "/", query: { s: 0 } }}>
-            <p className="cursor-pointer hover:text-sblue">home</p>
+            <p className="cursor-pointer z-50 hover:text-sblue">home</p>
           </Link>
           <Link href={{ pathname: "/", query: { s: 1 } }}>
-            <p className="cursor-pointer hover:text-sblue">roadmap</p>
+            <p className="cursor-pointer z-50 hover:text-sblue">roadmap</p>
           </Link>
           <Link href="/mint">
-            <p className="cursor-pointer hover:text-sblue">mint</p>
+            <p className="cursor-pointer z-50 hover:text-sblue">mint</p>
           </Link>
         </div>
       </div>
@@ -50,14 +50,14 @@ function Footer() {
             href="https://twitter.com/SolanoidNFT"
             rel="noopener noreferrer"
           >
-            <p className="cursor-pointer hover:text-sblue">twitter</p>
+            <p className="cursor-pointer z-50 hover:text-sblue">twitter</p>
           </a>
           <a
             target="_blank"
             href="https://discord.gg/KTgpaGpn"
             rel="noopener noreferrer"
           >
-            <p className="cursor-pointer hover:text-sblue">discord</p>
+            <p className="cursor-pointer z-50 hover:text-sblue">discord</p>
           </a>
         </div>
       </div>
