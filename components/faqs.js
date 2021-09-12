@@ -1,8 +1,4 @@
-import Image from "next/image";
-import blue from "../assets/blue.png";
-import red from "../assets/red.png";
-import yellow from "../assets/yellow.png";
-import logo from "../assets/logo.svg";
+import TypeIt from "typeit-react";
 
 function Faqs() {
   return (
@@ -21,7 +17,13 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-4 md:mt-2">
                   <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
-                    what wallets are supported?
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      what wallets are supported?
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -37,7 +39,14 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-2 text-2xl font-Raleway">
-                    Sollet, Phantom, SolFlare and Ledger wallets are supported.
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      Sollet, Phantom, SolFlare and Ledger wallets are
+                      supported.
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -56,7 +65,13 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-4 md:mt-2">
                   <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
-                    what is the total supply?
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      what is the total supply?
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -72,7 +87,13 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway">
-                    a total of 10,000 unique Solanoid NFTs will be created.
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      a total of 10,000 unique Solanoid NFTs will be created.
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -91,7 +112,13 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-4 md:mt-2">
                   <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
-                    how much does it cost to mint?
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      how much does it cost to mint?{" "}
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -107,7 +134,13 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway ">
-                    1.5SOL + $0.01 of gas.
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      1.5SOL + $0.01 of gas.
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -126,7 +159,14 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-4 md:mt-2">
                   <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
-                    when is the launch?
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      {" "}
+                      when is the launch?{" "}
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -142,7 +182,13 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway">
-                    Friday 24th of September 2021 at 6pm UTC.
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      Friday 24th of September 2021 at 6pm UTC.
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -161,7 +207,13 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-4 md:mt-2">
                   <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
-                    will there be a presale?
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      will there be a presale?{" "}
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -177,7 +229,15 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway ">
-                    this will be a completely fairlaunch, therefore no presale.
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      {" "}
+                      this will be a completely fairlaunch, therefore no
+                      presale.{" "}
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -196,7 +256,13 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-4 md:mt-2">
                   <p className="text-white ml-2 mt-4 text-4xl font-Raleway font-semibold">
-                    are there giveaways?
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      are there giveaways?{" "}
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -212,7 +278,14 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway">
-                    there are several giveaways on our Discord & Twitter.
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      {" "}
+                      there are several giveaways on our Discord & Twitter.{" "}
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -231,7 +304,14 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-4 md:mt-2">
                   <p className="text-white ml-2 mt-2 text-4xl    font-Raleway font-semibold">
-                    what will minting funds go towards?
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      {" "}
+                      what will minting funds go towards?{" "}
+                    </TypeIt>
                   </p>
                 </div>
               </div>
@@ -247,7 +327,14 @@ function Faqs() {
               <div className="items-center justify-between">
                 <div className="flex flex-row ml-4 mt-6">
                   <p className="text-white ml-4 text-2xl font-Raleway">
-                    they will be used to develop our interactive & pay our team.
+                    <TypeIt
+                      options={{
+                        waitUntilVisible: true,
+                      }}
+                    >
+                      they will be used to develop our interactive & pay our
+                      team.{" "}
+                    </TypeIt>
                   </p>
                 </div>
               </div>

@@ -49,7 +49,7 @@ export default function Home() {
       <span
         id="circle"
         style={{ left: 0, top: 0 }}
-        className="absolute border-2 border-white w-14 h-14 rounded-full"
+        className="absolute border-2 z-50 border-white w-14 h-14 rounded-full"
       ></span>
       <Head>
         <title>solanoid</title>
