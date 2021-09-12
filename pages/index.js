@@ -9,6 +9,7 @@ import Story from "../components/story";
 import { useRouter } from "next/dist/client/router";
 import { useState, useEffect, useRef } from "react";
 import animateScrollTo from "animated-scroll-to";
+import Faqs_m from "../components/faq_mobile";
 
 export default function Home() {
   const router = useRouter();
@@ -69,6 +70,7 @@ export default function Home() {
             <div className="roadmap">
               <Roadmap />
             </div>
+            <Faqs_m />
             <Faqs />
             {/* <Story />  */}
           </div>
