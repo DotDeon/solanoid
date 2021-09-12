@@ -13,8 +13,30 @@ import animateScrollTo from "animated-scroll-to";
 export default function Home() {
   const router = useRouter();
   var { s } = router.query;
+  // const [state, setState] = useState({ x: 0, y: 0 });
+
+  var mouseX = 0,
+    mouseY = 0;
+  var xp = 0,
+    yp = 0;
+
+  const onMouseMove = (e) => {
+    let circle = document.querySelector("#circle");
+    mouseX = e.pageX - 30;
+    mouseY = e.pageY - 30;
+    setTimeout(function () {
+      xp += (mouseX - xp) / 6;
+      yp += (mouseY - yp) / 6;
+      circle.style.left = xp + "px";
+      circle.style.top = yp + "px";
+    }, 40);
+    console.log(e.pageX);
+    console.log(circle.style.top);
+  };
 
   useEffect(() => {
+    document.addEventListener("mousemove", onMouseMove);
+
     if (s == 1) {
       console.log(s);
       animateScrollTo(document.querySelector(".roadmap"));
@@ -23,7 +45,12 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-black w-screen h-screen">
+    <div className="relative bg-black w-screen h-screen">
+      <span
+        id="circle"
+        style={{ left: 0, top: 0 }}
+        className="absolute border-2 border-white w-14 h-14 rounded-full"
+      ></span>
       <Head>
         <title>solanoid</title>
         <link rel="icon" href="/favicon.ico" />

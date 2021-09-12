@@ -8,7 +8,12 @@ import Copyright from "../components/copyright";
 
 export default function mint() {
   return (
-    <div className="bg-black w-screen h-screen">
+    <div className="relative bg-black w-screen h-screen">
+      <span
+        id="circle"
+        style={{ left: 0, top: 0 }}
+        className="absolute border-2 border-white w-14 h-14 rounded-full"
+      ></span>
       <Head>
         <title>solanoid</title>
         <link rel="icon" href="/favicon.ico" />
