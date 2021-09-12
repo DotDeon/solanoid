@@ -5,7 +5,7 @@ import logo from "../assets/logo.svg";
 function Footer() {
   return (
     <div className="flex flex-row bg-white mt-16 w-screen h-1/3 md:h-1/2">
-      <div className="flex-1 bg-white mt-12 md:mt-24 ml-6 ">
+      <div className="flex-1 bg-white mt-24 ml-6 ">
         <div className="relative ml-10 md:ml-44 flex h-8 w-8 md:h-16 md:w-16 mr-auto cursor-pointer hover:animate-pulse">
           <svg
             xmlns="http://www.w3.org/2000/svg"
