@@ -4,9 +4,9 @@ import logo from "../assets/logo.svg";
 
 function Footer() {
   return (
-    <div className="flex flex-row bg-white w-screen mt-20 h-1/3 md:h-1/2">
-      <div className="flex-1 bg-white mt-44 md:mt-44 ">
-        <div className="relative ml-8 md:ml-44 flex h-16 w-16 mr-auto cursor-pointer hover:animate-pulse">
+    <div className="flex flex-row bg-white mt-16 w-screen h-1/3 md:h-1/2">
+      <div className="flex-1 bg-white mt-24 md:mt-24 ml-6 ">
+        <div className="relative ml-10 md:ml-44 flex h-16 w-16 mr-auto cursor-pointer hover:animate-pulse">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="83.37"
@@ -23,17 +23,16 @@ function Footer() {
         </div>
       </div>
       <div className="hidden md:flex-auto"></div>
-      <div className=" flex-1 "></div>
       <div className="hidden md:flex-auto"></div>
-      <div className="flex flex-col mt-20 md:mt-24 md:w-1/12 ">
+      <div className="flex md:ml-80 flex-col mt-10 md:mt-10 md:w-1/12 ">
         <h1 className="text-black flex text-4xl mt-16 -ml-2  font-Raleway font-bold">
           menu
         </h1>
         <div className="text-black  flex flex-col text-1xl -ml-2 mt-2  font-Raleway">
-          <Link href={{ pathname: "/", query: { scroll: 0 } }}>
+          <Link href={{ pathname: "/", query: { s: 0 } }}>
             <p className="cursor-pointer hover:text-sblue">home</p>
           </Link>
-          <Link href={{ pathname: "/", query: { scroll: 200 } }}>
+          <Link href={{ pathname: "/", query: { s: 1 } }}>
             <p className="cursor-pointer hover:text-sblue">roadmap</p>
           </Link>
           <Link href="/mint">
@@ -41,7 +40,7 @@ function Footer() {
           </Link>
         </div>
       </div>
-      <div className="flex-1 ml-4 flex-col mt-20 md:mt-24 pr-4">
+      <div className="flex-1  flex-col ml-14 mt-10 md:mt-10 pr-4">
         <h1 className="text-black text-4xl mt-16  font-Raleway font-bold">
           socials
         </h1>

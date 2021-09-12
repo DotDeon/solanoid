@@ -7,10 +7,20 @@ import Roadmap from "../components/roadmap";
 import Sidebar from "../components/sidemenu";
 import Story from "../components/story";
 import { useRouter } from "next/dist/client/router";
+import { useState, useEffect, useRef } from "react";
+import animateScrollTo from "animated-scroll-to";
 
 export default function Home() {
   const router = useRouter();
-  const { scroll } = router.query;
+  var { s } = router.query;
+
+  useEffect(() => {
+    if (s == 1) {
+      console.log(s);
+      animateScrollTo(document.querySelector(".roadmap"));
+      s = 0;
+    }
+  }, []);
 
   return (
     <div className="bg-black w-screen h-screen">
@@ -29,7 +39,9 @@ export default function Home() {
         <div className="flex flex-col ml-10 mt-14 bg-black w-screen">
           <div className="flex-none md:flex-1 bg-black mx-auto scrollbar-hide overflow-y-scroll ">
             <Banner />
-            <Roadmap />
+            <div className="roadmap">
+              <Roadmap />
+            </div>
             <Faqs />
             {/* <Story />  */}
           </div>
