@@ -8,7 +8,7 @@ import Copyright from "../components/copyright";
 
 export default function mint() {
   return (
-    <div className="relative bg-black w-screen h-screen">
+    <div className="relative bg-black w-screen h-screen ">
       <span
         id="circle"
         style={{ left: 0, top: 0 }}
@@ -27,7 +27,7 @@ export default function mint() {
       <div className="flex flex-row min-w-max min-h-screen bg-black">
         <Sidebar />
         <div className="flex flex-col ml-2 bg-black w-screen">
-          <div className="flex-none md:flex-1 bg-black mx-auto scrollbar-hide overflow-y-scroll ">
+          <div className="flex-none md:flex-1 bg-black mx-auto scrollbar-hide overflow-y-scroll overflow-x-hidden ">
             <ConnectWallet />
             <div className="flex-col h-1/2">
               <Countdown />

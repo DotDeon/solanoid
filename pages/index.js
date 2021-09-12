@@ -46,7 +46,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative bg-black w-screen h-screen">
+    <div className="relative bg-black w-screen h-screen ">
       <span
         id="circle"
         style={{ left: 0, top: 0 }}
@@ -62,10 +62,10 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <div className="flex flex-row min-w-max min-h-screen bg-black">
+      <div className="flex flex-row min-w-max min-h-screen bg-black ">
         <Sidebar />
         <div className="flex flex-col ml-10 md:mt-14 bg-black w-screen">
-          <div className="flex-none md:flex-1 bg-black mx-auto scrollbar-hide overflow-y-scroll ">
+          <div className="flex-none md:flex-1 bg-black mx-auto scrollbar-hide overflow-y-scroll overflow-x-hidden ">
             <Banner />
             <div className="roadmap">
               <Roadmap />
