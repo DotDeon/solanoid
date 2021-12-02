@@ -8,7 +8,7 @@ const Countdown = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("2021-09-24T00:00:00.000+05:00");
+    const target = new Date("2022-09-24T00:00:00.000+05:00");
 
     const interval = setInterval(() => {
       const now = new Date();
